@@ -34,7 +34,6 @@ export const Home = () => {
     } catch (error) {
       console.error('Error fetching verses:', error);
     }
-    console.log('get verse call endeed from comp');
   };
   return (
     <SafeAreaView style={styles.container}>
